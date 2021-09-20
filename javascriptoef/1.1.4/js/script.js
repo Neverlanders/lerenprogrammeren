@@ -8,9 +8,9 @@
  Geef getal 2 in: 3
  Geef getal 3 in: 2
  De totale som van 3 getallen is 9.
- **/
+ *
 
-/**LET OP DIT IS IN JAVASCRIPT ES5 GESCHREVEN*/
+/!**LET OP DIT IS IN JAVASCRIPT ES5 GESCHREVEN*!/
 
 var aantalGetallen = parseInt(prompt('Hoeveel getallen wenst u in te geven?'));
 var som = 0;
@@ -25,9 +25,9 @@ while(i<=aantalGetallen){
 console.log("De totale som van " + i + " getallen is " + som);
 
 
-/**LET OP DIT IS IN JAVASCRIPT ES6 GESCHREVEN
+/!**LET OP DIT IS IN JAVASCRIPT ES6 GESCHREVEN
  * De enkele quotes zijn geen quotes maar BACKTICKS die je
-kan terugvinden onder het pond teken naast je enter toets**/
+kan terugvinden onder het pond teken naast je enter toets**!/
 
 const aantalGetallen = parseInt(prompt('Hoeveel getallen wenst u in te geven?'));
 let som = 0;
@@ -39,4 +39,7 @@ do{
 
 }while(i <= aantalGetallen)
 
-console.log(`De totale som van ${i-1} getallen is ${som}`);
+console.log(`De totale som van ${i-1} getallen is ${som}`);*/
+
+var sterren = "*****"
+console.log(sterren.length)
